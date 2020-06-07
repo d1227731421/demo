@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: mydemo
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/medicine?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 6868
